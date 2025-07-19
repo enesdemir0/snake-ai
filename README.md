@@ -20,9 +20,9 @@ The project includes real-time training, model evaluation, and gameplay visualiz
 
 ##  Evaluation (500 Episodes)
 
-**Average Score:** 25.46  
+**Average Score:** 26.64  
 **Minimum Score:** 10  
-**Maximum Score:** 46
+**Maximum Score:** 48
 
 ---
 
@@ -37,13 +37,15 @@ After 8000+ episodes, the snake gets smarter:
 ##  Project Structure
 
 ai-snake-rl/
-├── models/ # Saved model files (.npz)
-├── agent.py # Q-learning agent logic
-├── neural_network.py # Custom neural network
-├── game.py # Game loop, training, evaluation
-├── best_score.txt # Stores highest score
-├── snake_play.gif # Snake gameplay animation
-└── snake_training_evolution.png # Training progress chart
+ai-snake-rl/
+├── models/                     # Saved model files (.npz)
+├── agent.py                   # Q-learning agent logic
+├── neural_network.py          # Custom neural network
+├── game.py                    # Game loop, training, evaluation
+├── best_score.txt             # Stores highest score
+├── snake_play.gif             # Snake gameplay animation
+└── snake_training_evolution.png  # Training progress chart
+
 
 ---
 
