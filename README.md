@@ -37,12 +37,12 @@ After 8000+ episodes, the snake gets smarter:
 ##  Project Structure
 
 ai-snake-rl/
-├── models/                     # Saved model files (.npz)
-├── agent.py                   # Q-learning agent logic
-├── neural_network.py          # Custom neural network
-├── game.py                    # Game loop, training, evaluation
-├── best_score.txt             # Stores highest score
-├── snake_play.gif             # Snake gameplay animation
+├── models/                        # Saved model files (.npz)
+├── agent.py                      # Q-learning agent logic
+├── neural_network.py             # Custom neural network
+├── game.py                       # Game loop, training, evaluation
+├── best_score.txt                # Stores highest score
+├── snake_play.gif                # Snake gameplay animation
 └── snake_training_evolution.png  # Training progress chart
 
 
