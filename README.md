@@ -2,7 +2,7 @@
 
 Sanek is an AI-powered Snake game built entirely from scratch using Python. The snake learns how to play by itself using Q-learning and a simple custom-built neural network. The project includes real-time training, model evaluation, and gameplay visualization using Pygame.
 
-![Snake Gameplay](snake_play.gif)
+![Snake Gameplay](ai-snake-rl/snake_play.gif)
 
 ---
 
