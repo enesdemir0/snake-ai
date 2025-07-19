@@ -23,7 +23,7 @@ Avg: 25.46 | Min: 10 | Max: 46
 
 After 8000+ episodes, the snake gets smarter:
 
-![Training Progress](snake_training_evolution.png)
+![Training Progress](ai-snake-rl/snake_training_evolution.png)
 
 ## Project Structure
 ai-snake-rl/
