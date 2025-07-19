@@ -1,31 +1,41 @@
 #  Sanek AI – Snake Game with Reinforcement Learning
 
-Sanek is an AI-powered Snake game built entirely from scratch using Python. The snake learns how to play by itself using Q-learning and a simple custom-built neural network. The project includes real-time training, model evaluation, and gameplay visualization using Pygame.
+Sanek is an AI-powered Snake game built entirely from scratch using Python.  
+The snake learns how to play by itself using Q-learning and a simple custom-built neural network.  
+The project includes real-time training, model evaluation, and gameplay visualization using Pygame.
 
 ![Snake Gameplay](ai-snake-rl/snake_play.gif)
 
 ---
 
-## Project Highlights
+##  Project Highlights
 
-- Q-learning with neural network (no external ML libraries)
+- Q-learning with custom neural network (no external ML libraries)
 - Self-learning snake with auto-restart after game over
-- Automatically saves best model and score
+- Automatically saves best model and best score
 - Evaluate and compare all saved models
-- Visual training evolution and snake gameplay demo
+- Visual training evolution and gameplay demo
 
 ---
 
-## Evaluation (500 Episodes)
-Avg: 25.46 | Min: 10 | Max: 46
+##  Evaluation (500 Episodes)
 
-## 📈 Training Progress
+**Average Score:** 25.46  
+**Minimum Score:** 10  
+**Maximum Score:** 46
+
+---
+
+##  Training Progress
 
 After 8000+ episodes, the snake gets smarter:
 
 ![Training Progress](ai-snake-rl/snake_training_evolution.png)
 
-## Project Structure
+---
+
+##  Project Structure
+
 ai-snake-rl/
 ├── models/ # Saved model files (.npz)
 ├── agent.py # Q-learning agent logic
@@ -35,6 +45,9 @@ ai-snake-rl/
 ├── snake_play.gif # Snake gameplay animation
 └── snake_training_evolution.png # Training progress chart
 
+---
+
 ## Requirements
+
 pip install pygame numpy matplotlib
 
